@@ -1,0 +1,6 @@
+apiVersion: myk8s.io/v1
+kind: TheFooTheBar
+metadata:
+  name: the-foo-the-bar-sample
+spec:
+  message: "Hello, World!"
