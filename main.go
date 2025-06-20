@@ -41,7 +41,7 @@ func main() {
 	}
 	thefoothebar := schema.GroupVersionResource{Group: "myk8s.io", Version: "v1", Resource: "thefoosthebars"}
 
-	//setup informer
+	
 
 	informer := cache.NewSharedIndexInformer(
 
