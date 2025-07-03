@@ -3,4 +3,4 @@ kind: TheFooTheBar
 metadata:
   name: the-foo-the-bar-sample
 spec:
-  message: "Hello, World!"
+  message: "Hello, World! Welcome to the world of k8s"
