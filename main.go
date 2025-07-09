@@ -21,6 +21,8 @@ func main() {
 	var kubeconfig string
 	fmt.Println("Start Controller")
 	fmt.Println("Start Controller again")
+	fmt.Println("third Controller again")
+	fmt.Println("forth Controller again")
 	
 	if home := homedir.HomeDir(); home != "" {
 		kubeconfig = filepath.Join(home, ".kube", "config")
