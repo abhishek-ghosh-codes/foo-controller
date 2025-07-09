@@ -19,7 +19,7 @@ import (
 
 func main() {
 	var kubeconfig string
-
+	fmt.Println("Start Controller")
 	if home := homedir.HomeDir(); home != "" {
 		kubeconfig = filepath.Join(home, ".kube", "config")
 	}
